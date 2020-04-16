@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gitbook > npmi > npm > node-gyp > request > hawk > hoek:
+        patched: '2020-04-16T01:51:22.591Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > hoek:
+        patched: '2020-04-16T01:51:22.591Z'
+    - gitbook > npmi > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-04-16T01:51:22.591Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-04-16T01:51:22.591Z'
+    - gitbook > npmi > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-04-16T01:51:22.591Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-04-16T01:51:22.591Z'
+    - gitbook > npmi > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-16T01:51:22.591Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-04-16T01:51:22.591Z'
+  'npm:minimatch:20160620':
+    - gitbook > npm > minimatch:
+        patched: '2020-04-16T01:51:22.591Z'
+    - gitbook > npm > node-gyp > glob > minimatch:
+        patched: '2020-04-16T01:51:22.591Z'
+    - gitbook > npm > node-gyp > minimatch:
+        patched: '2020-04-16T01:51:22.591Z'
+  'npm:tunnel-agent:20170305':
+    - gitbook > npm > request > tunnel-agent:
+        patched: '2020-04-16T01:51:22.591Z'
