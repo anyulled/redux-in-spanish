@@ -5,10 +5,11 @@
   "main": "README.md",
   "scripts": {
     "clean": "rimraf _book",
-    "prepare": "gitbook install",
+    "prepare": "npm run snyk-protect && gitbook install",
     "build": "npm run prepare && gitbook build -g sergiodxa/redux-in-spanish",
     "watch": "gitbook serve",
-    "publish": "npm run clean && npm run build && cp CNAME _book && cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push https://github.com/sergiodxa/redux-in-spanish.git gh-pages --force"
+    "publish": "npm run clean && npm run build && cp CNAME _book && cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push https://github.com/sergiodxa/redux-in-spanish.git gh-pages --force",
+    "snyk-protect": "snyk protect"
   },
   "repository": {
     "type": "git",
@@ -26,11 +27,13 @@
   },
   "homepage": "https://es.redux.js.org",
   "dependencies": {
-    "gitbook": "2.6.7",
-    "gitbook-cli": "2.1.3",
+    "gitbook": "3.2.2",
+    "gitbook-cli": "2.3.1",
     "gitbook-plugin-edit-link": "2.0.2",
     "gitbook-plugin-ga": "1.0.1",
     "gitbook-plugin-prism": "1.1.0",
-    "rimraf": "2.5.2"
-  }
+    "rimraf": "2.7.1",
+    "snyk": "^1.410.0"
+  },
+  "snyk": true
 }
