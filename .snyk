@@ -39,6 +39,14 @@ patch:
         patched: '2020-10-06T13:41:05.328Z'
     - gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
         patched: '2020-10-06T13:41:05.328Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > hoek:
+        patched: '2020-10-06T13:42:02.570Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-10-06T13:42:02.570Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-10-06T13:42:02.570Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-06T13:42:02.570Z'
   SNYK-JS-LODASH-567746:
     - gitbook-cli > lodash:
         patched: '2020-10-06T13:09:56.705Z'
