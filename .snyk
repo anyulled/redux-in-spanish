@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gitbook > send > debug:
+        patched: '2020-10-06T13:09:56.705Z'
+  'npm:hoek:20180212':
+    - gitbook > request > hawk > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > request > hawk > boom > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > request > hawk > sntp > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > npm > request > hawk > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > npm > request > hawk > boom > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > npm > request > hawk > sntp > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-06T13:09:56.705Z'
+  SNYK-JS-LODASH-567746:
+    - gitbook-cli > lodash:
+        patched: '2020-10-06T13:09:56.705Z'
+  'npm:lodash:20180130':
+    - gitbook > i18n-t > lodash:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > juice > web-resource-inliner > lodash:
+        patched: '2020-10-06T13:09:56.705Z'
+  'npm:moment:20161019':
+    - gitbook > moment:
+        patched: '2020-10-06T13:09:56.705Z'
+  'npm:ms:20170412':
+    - gitbook > send > ms:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > send > debug > ms:
+        patched: '2020-10-06T13:09:56.705Z'
+  'npm:tough-cookie:20170905':
+    - gitbook > request > tough-cookie:
+        patched: '2020-10-06T13:09:56.705Z'
+    - gitbook > npm > request > tough-cookie:
+        patched: '2020-10-06T13:09:56.705Z'
