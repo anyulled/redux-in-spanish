@@ -27,8 +27,8 @@
   },
   "homepage": "https://es.redux.js.org",
   "dependencies": {
-    "gitbook": "3.2.2",
-    "gitbook-cli": "2.3.2",
+    "gitbook": "3.2.3",
+    "gitbook-cli": "2.3.1",
     "gitbook-plugin-edit-link": "2.0.2",
     "gitbook-plugin-ga": "1.0.1",
     "gitbook-plugin-prism": "2.4.0",
